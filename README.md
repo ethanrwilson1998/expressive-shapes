@@ -4,9 +4,9 @@ A simple template app for the Expressive Shapes project built in Python using py
 
 To get started:
 
-- Download this repo
+- Download this repo via git (or by downloading the project .zip)
 > git clone [repo]
-- Install pyqt5
+- Install pyqt5 (this can take a few minutes)
 > pip install pyqt5
 - Replace the template code in *https://github.com/ethanrwilson1998/expressive-shapes/shapes.py*		
 
@@ -25,7 +25,29 @@ To get started:
 
 ![Template in action](main-gif.gif)
 
-# TODO:
+# Homework Statement:
 
-- Accept parameters as args
-- Create multiple test setups with different shape color size combinations
+Tell a story using three distinct shapes: rectangles, ellipses, and triangles.  
+Using the characteristics (size, color, shape) and actions of the objects, convey a
+story.  For example, large circles could be programmed to chase after smaller squares, 
+conveying that the squares are afraid and running away.
+
+Submissions will be graded on three criteria:
+
+- Does the code run as intended?  
+    - All three base shape classes (rectangle, ellipse, triangles) must be incorporated.
+    - There must be significant change from the provided template.
+    
+- Written description of intent.  A short description (no more than 300 words) that describes 
+the shapes' intent towards each other and the implementation you took to achieve it.
+
+- Code alignment with the description.  Artistic expression is arbitrary, but there must be an
+obvious link between the written description and what is actually seen when running the codebase.
+
+What to submit:
+
+- Your updated shapes.py file.  All work should be done in shapes.py.
+
+- Written description of intent
+
+- Oral/Visual presentations will be done in class, giving the opportunity for discussion.

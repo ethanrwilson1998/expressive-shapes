@@ -1,5 +1,4 @@
 from abc import abstractmethod
-from parameters import *
 
 
 class Shape:
@@ -51,7 +50,7 @@ class Square(Rectangle):
             raise Exception(f'Invalid square object, s={s} w={self.w} h={self.h}.  w and h must be equal.')
 
     def move(self, shapes):
-        # update to give squares specialized behaviors relative to rectangles:
+        # update if you want to give squares specialized behaviors relative to rectangles:
         super().move(shapes)
         ##########
 
@@ -90,7 +89,7 @@ class Circle(Ellipse):
             raise Exception(f'Invalid circle object, s={s} w={self.w} h={self.h}.  w and h must be equal.')
 
     def move(self, shapes):
-        # update to give circles specialized behaviors relative to ellipses:
+        # update if you want to give circles specialized behaviors relative to ellipses:
         super().move(shapes)
         ##########
 
@@ -103,7 +102,7 @@ class Triangle(Shape):
 
         # your initialization code here, replace this sample code:
         self.frame_count = 0
-        self.tick = int(frame_rate / 2)
+        self.tick = 2 * frame_rate
         self.direction = 0
         self.move_scale = 3
         ##########
@@ -138,3 +137,16 @@ class Triangle(Shape):
 
         self.frame_count += 1
         ##########
+
+
+# define canvas size HERE
+
+canvas_width = 600
+canvas_height = 400
+frame_rate = 30
+
+# define what shapes you want in your scene HERE
+
+shape_array = [Square(color='red', x=100, y=100, s=20),
+               Circle(color='blue', x=300, s=50),
+               Triangle(color='green', x=120, y=100, x2=100, y2=80, x3=150, y3=93)]
