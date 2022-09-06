@@ -27,7 +27,8 @@ To get started:
 
 # Homework Statement:
 
-Tell a story using three distinct shapes: rectangles, ellipses, and triangles.  
+Tell a story using three distinct shapes: rectangles, ellipses, and triangles.  The shapes 
+involved in the story should appear affective, and exhibit emotions.
 Using the characteristics (size, color, shape) and actions of the objects, convey a
 story.  For example, large circles could be programmed to chase after smaller squares, 
 conveying that the squares are afraid and running away.
